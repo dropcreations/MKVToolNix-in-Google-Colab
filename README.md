@@ -29,9 +29,10 @@ Install latest __MKVToolNix__ into the Google Colab runtime. Use __mkvmerge, mkv
 
 ## __mkvextract__
 
-* You can extract __all tracks, attachments, chapters, tags, cues, cue sheet, timecodes__.
+* You can extract __all tracks, attachments, chapters, tags, cues, cue sheet, timecodes__ from `MKV` and `WebM` files.
 * Also you can extract a __single track__ by selecting `extractMode: Single Track` option.
 * While extracting chapters, enter `chapters extract type?` as `xml` or `ogm` when asked for extract in that format
+* `inputFile` can be a file or folder that contains `MKV` and `WebM` files. Don't need to contain only MKV and WebM files.
 
 ## __mkvpropedit__
 
